@@ -10,10 +10,10 @@ import java.util.ArrayList;
 public class Book {
 
     // Instance variables
-    private Set<String> Titles; // Set to store book titles
-    private Map<String, String> Authors; // Map to store book authors mapped to book titles
-    private List<String[]> PublicationYears; // List to store book titles and publication years
-    private int totalBooks; // Total number of books in the library
+    private Set<String> Titles;
+    private Map<String, String> Authors;
+    private List<String[]> PublicationYears;
+    private int totalBooks;
 
     // Constructor
     public Book(String adventures, String makena, int i) {
